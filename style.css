@@ -1,0 +1,106 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.25s;
+}
+
+body {
+    margin: 0;
+}
+
+.block {
+    margin: 1vw 30vw;
+    width: 40vw;
+    border: 2px solid gray;
+    border-radius: 1%;
+    height: 15vw;
+}
+
+.Buttons {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.Buttons button {
+    padding: 2vw 4.675vw;
+    font-size: 1.25vw;
+    border-top: none;
+}
+
+.focusLight {
+    color: black;
+    background-color:rgba(250, 234, 168, 0.268);
+    border: 1px solid gray;
+    border-bottom: none;
+}
+
+.focusDark {
+    color: rgb(255, 255, 255);
+    background-color:rgba(74, 73, 70, 0.268);
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.noFocusLight {
+    color: gray;
+    background-color: rgba(200, 200, 200, 0.498);
+    border: 1px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.noFocusDark {
+    color: rgb(173, 127, 127);
+    background-color: rgba(24, 24, 24, 0.498);
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.Buttons .first {
+    border-left: none;
+}
+
+.Buttons .last {
+    border-right: none;
+}
+
+.Buttons button:hover {
+    cursor: pointer;
+}
+
+.Container {
+    margin: 0;
+    padding: 1vw;
+}
+
+.Container ul {
+    list-style-type: square;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 1.5vw;
+}
+
+.Container button {
+    background-color:rgba(195, 190, 170, 0.58);
+    border: 1px solid black;
+}
+
+.Container p {
+    margin: 0;
+    font-size: 1vw;
+}
+
+.Container h1 {
+    margin: 0 0 1vw 0;
+    font-size: 1.2vw;
+}
+
+.Dark {
+    background-color:rgba(69, 69, 69, 0.821);
+    color: whitesmoke;
+}
+
+.Light {
+    background-color:rgba(250, 234, 168, 0.699);
+    color: black;
+}
